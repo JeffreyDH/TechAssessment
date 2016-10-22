@@ -1,11 +1,3 @@
-/*
- * This is a JavaScript Scratchpad.
- *
- * Enter some JavaScript, then Right Click or choose from the Execute Menu:
- * 1. Run to evaluate the selected text (Ctrl+R),
- * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
- * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
- */
 
 function reverseString(input)
 {
@@ -33,9 +25,7 @@ http.onreadystatechange = function(){
   if(http.readyState == 4)
     {
       var response = JSON.parse(http.responseText);
-      
       var needleLocation = 0;
-               // console.log(response.needle);
 
       for(var i = 0; i < 20; i++)
         { 
