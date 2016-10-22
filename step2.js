@@ -1,11 +1,5 @@
-/*
- * This is a JavaScript Scratchpad.
- *
- * Enter some JavaScript, then Right Click or choose from the Execute Menu:
- * 1. Run to evaluate the selected text (Ctrl+R),
- * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
- * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
- */
+///Step 2 of the TechAssessment 
+
 
 function reverseString(input)
 {
@@ -16,7 +10,6 @@ function reverseString(input)
   }
   return output;
 }
-
 
 var http = new XMLHttpRequest();
 var url = "http://challenge.code2040.org/api/reverse";
@@ -47,17 +40,4 @@ http.onreadystatechange = function(){
 http.send(JSON.stringify({token: "2311aa64136010614ee90afe722c588f"}));
 
 
-
-
-/*http.open(method, urlValidate);
-http.send(JSON.stringify({token: "2311aa64136010614ee90afe722c588f", string: reverse}));*/
-
-
-//var response = "resposne";
-//var reverse = "";
-
-
-//reverseString(response);
-
-//console.log(reverse);
 
