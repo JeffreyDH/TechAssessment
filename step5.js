@@ -1,13 +1,3 @@
-/*
- * This is a JavaScript Scratchpad.
- *
- * Enter some JavaScript, then Right Click or choose from the Execute Menu:
- * 1. Run to evaluate the selected text (Ctrl+R),
- * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
- * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
- */
-
-
 
 var http = new XMLHttpRequest();
 var url = "http://challenge.code2040.org/api/dating";
@@ -27,6 +17,7 @@ http.onreadystatechange = function(){
       var date = new Date(response.datestamp);
       
       var interval_milliseconds = (response.interval * MILLISECONDS_IN_SECOND);
+     
       var totalMilliseconds = date.getTime() + interval_milliseconds;
             
       date.setTime(totalMilliseconds);
